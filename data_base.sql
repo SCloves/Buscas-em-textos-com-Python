@@ -32,7 +32,7 @@ create table buscas_em_textos.palavra_localizacao(
 
 create index idx_palavra_localizacao_idpalavra on buscas_em_textos.palavra_localizacao(idpalavra);
 
-alter database indice character set = utf8mb4 collate = utf8mb4_unicode_ci;
-alter table palavras convert to character set utf8mb4 collate = utf8mb4_unicode_ci;
+--alter database indice character set = utf8mb4 collate = utf8mb4_unicode_ci;
+--alter table palavras convert to character set utf8mb4 collate = utf8mb4_unicode_ci;
 
 
